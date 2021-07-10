@@ -1,7 +1,14 @@
 body{
   background-color: rgb(221, 228, 233);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 #navbar{
   background-color: #084e75;
+}
+#showcase{
+  background-image: url('./assets/mac.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
 }
