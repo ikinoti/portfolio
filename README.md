@@ -24,5 +24,5 @@ Phone: +254 710120950
 Email: gitongakinoti1@gmail.com
 ### License
 *{MIT.}*
-Copyright (c) {2021} 
+Copyright (c) 2021 Moringa School.
 **Designed and Built by <a href="https://github.com/ikinoti/" target="_blank">iKinoti</a>**
