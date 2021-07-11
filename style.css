@@ -6,15 +6,17 @@ body{
   background-color: #084e75;
 }
 #showcase{
-  background-image: url('./assets/mac.jpg');
+  
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   background-position: center;
-  position: relative;
+  background-image: url('./assets/mac.jpg');
+  background-color: rgba(231, 228, 228, 0.5); 
+  background-blend-mode: overlay; 
 }
-#overlay{
-  background-color: rgba(217, 233, 247, 0.5);
+#name{
+  color: rgb(94, 38, 18);
 }
 #background-section{
   background-color: #E2EEF2;
