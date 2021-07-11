@@ -5,6 +5,10 @@ body{
 #navbar{
   background-color: #084e75;
 }
+#navmenu ul li a:hover{
+  color: rgb(155, 62, 20);
+  margin: 5px;
+}
 #showcase{
   
   background-repeat: no-repeat;
@@ -18,9 +22,12 @@ body{
 #name{
   color: rgb(94, 38, 18);
 }
-#background-section{
+#about{
   background-color: #E2EEF2;
 }
 #background-info{
   background-color: #01152c;
+}
+#contact{
+  background-color: #56a4ce;
 }
