@@ -15,7 +15,7 @@
 </head>
 <body>
   <!-- Nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark shadow p-1 mb-1 rounded" id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark shadow p-1 mb-1 rounded fixed-top" id="navbar">
     <div class="container">
       <a href="#" class="navbar-brand fw-bold fs-2">i<span id="name">K</span>inoti</a>
 
@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto fs-4">
           <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+            <a href="#showcase" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="#about" class="nav-link">About Me</a>
@@ -48,7 +48,7 @@
       <div class="d-flex align-items-center justify-content-between">
         <img src="./assets/me.png" alt="Me" class="img-fluid d-none d-sm-block">
         <div class="p-3">
-          <h3 id="name">Kinoti Gitonga</h3>
+          <h3 id="name">Kinoti Gitonga,</h3>
           <p class="fs-1 fw-bold my-3">Software Developer and </p>
           <p class="fs-1 fw-bold">Website Designer.</p>
           <button class="btn btn-lg btn-primary mt-2">Hire Me</button>
@@ -59,8 +59,8 @@
     
   </div>
 
-  <!-- background -->
-  <section id="background-section" class="p-5">
+  <!-- about me -->
+  <section id="about" class="p-5">
     <div class="container text-light p-4 rounded" id="background-info">
       <h2 id="name">My Background</h2>
       <p>My name is Kinoti Gitonga, currently living in Nairobi and a student at MOringa school pursuing a course in Software Development. I am concentrating to perfect my skills in web development with a goal of being a software developer in future</p>
@@ -84,7 +84,7 @@
   </section>
   
 <!-- Project section -->
-<section class="p-5">
+<section class="p-5" id="project">
   <div class="container">
     <div class="row text-center">
       <div class="col-md ">
@@ -156,21 +156,21 @@
 </section>
 
 <!-- contact section -->
-<section class="bg-info text-white text-center p-5">
+<section class="bg-info text-white text-center p-5" id="contact">
   <div class="container">
     <p>For gigs or enquiry about a project you need to be done:-</p>
     <button btn btn-primary>Contact me</button>
-    <div class="mt-3">
-      <a href="#"><i class="bi bi-github"></i></a>
-      <a href="#"><i class="bi bi-twitter"></i></a>
-      <a href="#"><i class="bi bi-instagram"></i></a>
+    <div class="mt-3 px-5"></div>
+      <a href="#" class="mx-2 fs-3" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://twitter.com/tosh_hyxoul" target="_blank" class="mx-2 fs-3"><i class="bi bi-twitter"></i></a>
+      <a href="https://www.instagram.com/_igitonga__/" class="mx-2 fs-3" target="_blank"><i class="bi bi-instagram"></i></a>
     </div>
   </div>
 
 </section>
 <footer class="bg-dark text-center text-white">
   <div class="container">
-    <p class="copyright">Copyright &copy;2021 Designed and built by iKinoti</p>
+    <p class="copyright mb-0 py-2">Copyright &copy;2021 Designed and built by iKinoti</p>
   </div>
 </footer>
 
